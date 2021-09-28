@@ -1,0 +1,19 @@
+.square {
+    border-radius: 0px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, #007bff, #000);
+    height: 15vh;
+    color: white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.container {
+    overflow: hidden;
+    min-width: 100%;
+    padding: 0;
+}
