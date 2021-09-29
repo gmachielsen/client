@@ -7,7 +7,7 @@ import { UploadOutlined } from "@ant-design/icons";
 import Resizer from "react-image-file-resizer";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
-import CoverCreateForm from "./forms/CoverCreateForm";
+// import CoverCreateForm from "./forms/CoverCreateForm";
 
 
 const Cover = () => {
@@ -175,7 +175,7 @@ const Cover = () => {
             onCancel={() => setVisible(false)}
             footer={null}
           >
-            <CoverCreateForm
+            {/* <CoverCreateForm
               handleSubmit={handleSubmit}
               handleImage={handleImage}
               handleChange={handleChange}
@@ -189,7 +189,7 @@ const Cover = () => {
               handleImageRemove={handleImageRemove}
               uploading={uploading}
               progress={progress}
-            />
+            /> */}
         </Modal>
       </div>
       <div className="row">
