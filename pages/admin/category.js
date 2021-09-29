@@ -5,7 +5,6 @@ import { UploadOutlined } from "@ant-design/icons";
 import { toast } from "react-toastify";
 import { useRouter } from "next/router";
 
-import CategoryCreateForm from "./forms/CategoryCreateForm";
 import axios from "axios";
 
 
@@ -71,13 +70,7 @@ const Category = () => {
             onCancel={() => setVisible(false)}
             footer={null}
           >
-            {/* <CategoryCreateForm
-              handleSubmit={handleSubmit}
-              handleChange={handleChange}
-              name={name}
-              setName={setName}
-           
-            /> */}
+
 <form onSubmit={handleSubmit}>
      <div className="form-group">
        <input
